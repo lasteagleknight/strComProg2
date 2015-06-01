@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF000000" >
+
+        <TextView
+            android:id="@+id/player_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="You: 0"
+            android:textColor="#FFFFFFFF" />
+
+        <TextView
+            android:id="@+id/computer_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0 :CPU"
+            android:textColor="#FFFFFFFF" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/AIColorSwitcher"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF000000"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:weightSum="5" >
+
+        <ImageView
+            android:id="@+id/player_color1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/color_border"
+            android:cropToPadding="true" />
+
+        <ImageView
+            android:id="@+id/player_color2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/color_border"
+            android:cropToPadding="true" />
+
+        <ImageView
+            android:id="@+id/space"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/computer_color1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/color_border"
+            android:cropToPadding="true" />
+
+        <ImageView
+            android:id="@+id/computer_color2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/color_border"
+            android:cropToPadding="true" />
+    </LinearLayout>
+
+    <controllers.PuzzleSurface
+        android:id="@+id/gameGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/puzzle_border" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/title" />
+
+    <Button
+        android:id="@+id/mainLeisure"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Leisure" />
+
+    <Button
+        android:id="@+id/mainMPlayer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplayer" />
+
+    <Button
+        android:id="@+id/mainProfile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile" />
+
+</LinearLayout>

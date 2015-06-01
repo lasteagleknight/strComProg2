@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select Difficulty" />
+
+    <Button
+        android:id="@+id/colorIt_easy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Easy" />
+
+    <Button
+        android:id="@+id/colorIt_medium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium" />
+
+    <Button
+        android:id="@+id/colorIt_hard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hard" />
+
+    <Button
+        android:id="@+id/colorIt_custom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom" />
+
+</LinearLayout>

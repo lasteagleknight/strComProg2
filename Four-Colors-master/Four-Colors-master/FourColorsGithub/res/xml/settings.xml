@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_category" >
+        <ColorPicker.ColorPickerPreference
+            android:defaultValue="@integer/COLOR_BLACK"
+            android:key="color1"
+            android:summary="@string/color1_summary"
+            android:title="@string/color1_title" />
+        <ColorPicker.ColorPickerPreference
+            android:defaultValue="@integer/COLOR_GREEN"
+            android:key="color2"
+            android:persistent="false"
+            android:summary="@string/color2_summary"
+            android:title="@string/color2_title" />
+        <ColorPicker.ColorPickerPreference
+            alphaSlider="true"
+            android:defaultValue="@integer/COLOR_GREEN"
+            android:key="color3"
+            android:summary="@string/color3_summary"
+            android:title="@string/color3_title" />
+        <ColorPicker.ColorPickerPreference
+            android:defaultValue="#0000FF"
+            android:key="color4"
+            android:persistent="false"
+            android:summary="@string/color4_summary"
+            android:title="@string/color4_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <integer name="COLOR_BLACK">0xff000000</integer>
+    <integer name="COLOR_GREEN">0xff00ff00</integer>
+    <integer name="BACKGROUND_COLOR">0xff838383</integer>
+    <integer name="EDGE_COLOR">0xffffffff</integer>
+    <integer name="color1">0xff1680CA</integer>
+    <integer name="color2">0xff8cc739</integer>
+    <integer name="color3">0xfff5861a</integer>
+    <integer name="color4">0xffde1841</integer>
+
+</resources>

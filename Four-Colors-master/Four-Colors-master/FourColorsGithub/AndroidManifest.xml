@@ -1,0 +1,81 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dc.fourcolors"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".BoardApplication"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainPage"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_title_page"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColorIt"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_title_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.dc.fourcolors.LeisureModes"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_title_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ColorItModes"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_title_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".VersusAI"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_title_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.dc.fourcolors.Profile"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_title_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LoadingSplash"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_title_page"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Multiplayer"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

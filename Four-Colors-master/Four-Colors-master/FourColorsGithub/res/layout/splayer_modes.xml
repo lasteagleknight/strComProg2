@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select Mode" />
+    
+    <Button
+        android:id="@+id/sMode_colorIt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Color It!" />
+    
+    <Button
+        android:id="@+id/sMode_campaign"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Campaign" />
+    
+    <Button
+        android:id="@+id/sMode_vAI"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Versus AI" />
+
+</LinearLayout>
